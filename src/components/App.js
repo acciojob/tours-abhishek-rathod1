@@ -39,7 +39,7 @@ const App = () => {
     return (
       <main id="main">
         <div className="title">
-          <h2>No tours left</h2>
+          <h2>No more tours</h2>
           <button onClick={fetchTours} className="btn">
             Refresh
           </button>
