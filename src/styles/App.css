@@ -9,4 +9,62 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    font-size: 22px;
+    padding: 16px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single-tour{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 40vw;
+    font-size: 32px;
+    padding: 16px;
+    background-color: antiquewhite;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.show{
+    width: max-content;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    padding: 0;
+    margin: 0;
+
+}
+
+.title{
+    text-align: center;
+}
+
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 100vh;
+}
+
+.refresh{
+    margin-top: 20px;
+    background-color: rgb(31, 31, 155);
 }
